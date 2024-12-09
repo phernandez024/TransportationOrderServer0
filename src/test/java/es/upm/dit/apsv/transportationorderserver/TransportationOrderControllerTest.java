@@ -77,7 +77,7 @@ public class TransportationOrderControllerTest {
     @Test
     public void testGetOrders2() throws Exception {
         
-        //call GET "/transportationorders/{truck}"  application/json
+       
         when(repository.findById("8962ZKR")).thenReturn(Optional.of(
             new TransportationOrder("28","8962ZKR",1591682400000L,
             40.4562191,-3.8707211,1591692196000L,42.0206372,-4.5330132,
